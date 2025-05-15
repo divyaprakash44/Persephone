@@ -1,3 +1,7 @@
+# Copyright 2025 Divya Prakash Singh
+# Licensed under the Apache License, Version 2.0
+# See the LICENSE file for more details.
+
 import sys
 sys.path.append(r"C:\AI-ML\projects\util")
 
@@ -9,7 +13,7 @@ from sklearn.preprocessing import StandardScaler
 from imblearn.over_sampling import SMOTE
 from scipy.stats import chi2
 
-filePath = "C:/AI-ML/projects/Datasets/prepared/stroke_risk_dataset_PREPARED_BINARY.csv"
+filePath = "dataset/breast_cancer_PREPARED.csv"
 dataset = pd.read_csv(filePath, encoding='UTF-8')
 
 datasetSize = dataset.shape[0]
