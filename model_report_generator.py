@@ -1,3 +1,7 @@
+# Copyright 2025 Divya Prakash Singh
+# Licensed under the Apache License, Version 2.0
+# See the LICENSE file for more details.
+
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, precision_recall_fscore_support, roc_curve, auc
 import seaborn as sns
